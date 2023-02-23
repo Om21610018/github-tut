@@ -1,0 +1,59 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  height: 50vh; 
+  /* it will make the size of the container */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background:rgb(157, 180, 231);
+}
+
+.icons a{
+  display:inline-flex;
+  
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  /* icons will be in center */
+
+/* it will remove the underline */
+  text-decoration: none;
+  font-size: 40px;
+
+  background-size: 100% 200%;
+  background-position: 0% 5%;
+  margin: 10px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  transition: background-position 0.5s , color 0.5s;
+}
+
+.icons a:nth-child(1){
+  /* it will select the first anchor tag */
+  color: #1976d3;
+  background-image: linear-gradient(#fff 50%,#1976d3 50%);
+
+}
+.icons a:nth-child(2){
+  /* it will select the first anchor tag */
+  color: #f44236;
+  background-image: linear-gradient(#fff 50%,#f44236 50%);
+
+}
+.icons a:nth-child(3){
+  /* it will select the first anchor tag */
+  color: #03a9f5;
+  background-image: linear-gradient(#fff 50%,#03a9f5 50%);
+
+}
+
+.icons  a:hover{
+  background-position: 0% 100%;
+  color: white;
+
+}
